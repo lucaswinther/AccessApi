@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Access.Auth.Service.Infra\Access.Auth.Service.Infra.csproj" />
+    <ProjectReference Include="..\Access.Auth.Service.Domain\Access.Auth.Service.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BCrypt.Net-Core" Version="1.5.0" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,3 @@
+[submodule "Cappta-Logging"]
+	path = Cappta-Logging
+	url = https://github.com/Cappta/Cappta-Logging.git
